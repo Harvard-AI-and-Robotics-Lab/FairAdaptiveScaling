@@ -23,6 +23,7 @@ NPZ files have the following keys.
 
 
 In the DR disease, the NPZ files have
+
 ```
 dr_subtype: DR conditions - {'not.in.icd.table', 'no.dr.diagnosis', 'mild.npdr', 'moderate.npdr', 'severe.npdr', 'pdr'}
 oct_bscans: images of OCT B-scans
@@ -31,7 +32,9 @@ race: 0 - Asian, 1 - Black, 2 - White
 male: 0 - Female, 1 - Male
 hispanic: 0 - Non-Hispanic, 1 - Hispanic
 ```
+
 The condition would be converted into the label of vision-threatening DR by the condition-disease mapping.
+
 ```
 condition_disease_mapping = {'not.in.icd.table': 0.,
                     'no.dr.diagnosis': 0.,
