@@ -16,7 +16,7 @@ Harvard-FairVision30k:
 │   ├── train
 │   └── val
 ├── dr_meta.csv
-
+```
 The "train/val/test" directories contain two types of data: SLO fundus photos and NPZ files that store OCT B-scans, SLO fundus photos, and additional attributes. SLO fundus photos serve visual inspection purposes, while the copies in NPZ files eliminate the need for the dataloader to access any other files except the NPZ files. The naming convention for SLO fundus photos follows the format "slo_xxxxx.jpg," and for NPZ files, it is "data_xxxxx.npz," where "xxxxx" (e.g., 06691) represents a unique numeric ID.
 
 NPZ files have the following keys. 
