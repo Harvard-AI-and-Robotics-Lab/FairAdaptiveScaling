@@ -71,3 +71,7 @@ To run the experiments with the baseline models with the proposed fair adaptive 
 ```
 ./scripts/train_dr_base_real3d_fis.sh
 ```
+
+# Licence
+
+Apache License 2.0
