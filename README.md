@@ -52,9 +52,22 @@ pip install - r requirements.txt
 
 # Experiments
 
-To run the experiments with the baseline models on the task of DR detection, execute:
-
+To run the experiments with the baseline models on 2D SLO fundus images, execute:
 ```
 ./scripts/train_dr_base.sh
 ```
 
+To run the experiments with the baseline models with the proposed fair adaptive scalling module on 2D SLO fundus images, execute:
+```
+./scripts/train_dr_fair_fis.sh
+```
+
+To run the experiments with the baseline models on 3D OCT B-Scans, execute:
+```
+./scripts/train_dr_base_real3d.sh
+```
+
+To run the experiments with the baseline models with the proposed fair adaptive scalling module on 3D OCT B-Scans, execute:
+```
+./scripts/train_dr_base_real3d_fis.sh
+```
