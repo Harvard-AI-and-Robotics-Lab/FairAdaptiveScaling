@@ -72,6 +72,22 @@ To run the experiments with the baseline models with the proposed fair adaptive 
 ./scripts/train_dr_base_real3d_fis.sh
 ```
 
+## Acknowledgment and Citation
+
+If you find our code helpful for your research, please consider citing our [paper](https://www.medrxiv.org/content/10.1101/2024.04.13.24305759v2.full.pdf):
+
+```
+@article{shi2024equitable,
+  title={Equitable deep learning for diabetic retinopathy detection using multi-dimensional retinal imaging with fair adaptive scaling: a retrospective study},
+  author={Shi, Min and Afzal, Muhammad Muneeb and Huang, Hao and Wen, Congcong and Luo, Yan and Khan, Muhammad Osama and Tian, Yu and Kim, Leo and Elze, Tobias and Fang, Yi and others},
+  journal={medRxiv},
+  pages={2024--04},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory Press}
+}
+
+```
+
 # Licence
 
 Apache License 2.0
