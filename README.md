@@ -1,11 +1,11 @@
 # FairAdaptiveScaling
 
-The code for the paper entitled **Equitable deep learning for diabetic retinopathy detection using multi-dimensional retinal imaging with fair adaptive scaling**.
+The code for the paper entitled **Equitable deep learning for diabetic retinopathy detection using multi-dimensional retinal imaging with fair adaptive scaling**. If you have any questions, please email <harvardophai@gmail.com>.
 
 <img src="fig/motivation.jpg" width="800">
 
 # Dataset
-The Harvard-FairVision30k dataset is available through [link](https://drive.google.com/drive/folders/1sLX2O_0AlrjY6JmdKijiV1zducsOsd0m?usp=sharing) and was used with approvals. The ODIR-5K dataset is publicly available at [link](https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k) 
+The Harvard-FairVision dataset is available through [link](https://drive.google.com/drive/folders/1sLX2O_0AlrjY6JmdKijiV1zducsOsd0m?usp=sharing) and was used with approvals. The ODIR-5K dataset is publicly available at [link](https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k) 
 
 The Harvard-FairVision30k DR related dataset has an approximate size of 383 GB. Upon downloading and extracting these datasets, you will find the dataset structure as follows.
 
